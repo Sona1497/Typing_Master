@@ -1,0 +1,154 @@
+body
+{
+    width: 100%;
+    overflow-x:hidden;
+    overflow-y:auto;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+
+}
+
+h1{
+padding-top:0px
+margin-bottom:20px;
+  color:blue;
+font-size:35px
+
+}
+
+h2{
+    position:relative;
+    text-align:center;
+}
+
+#timeSelecter{
+
+    width:200px;
+    height:35px;
+    font-size:20px;
+ padding:5px;
+   border-radius:12px;
+
+}
+#levelSelecter{
+
+     width:200px;
+    height:35px;
+    font-size:20px;
+ padding:5px;
+  border-radius:12px;
+
+
+}
+#btnstyle{
+ border:1px solid black;
+  text-align: center;
+  padding:5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+ margin: 4px 2px;
+  cursor: pointer;
+  border-radius:12px;
+ background-color: green;
+
+}
+
+
+.typerContainerStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+
+
+}
+#root{
+
+
+
+}
+
+
+.textContainerStyle {
+    width: 500px;
+    height: 250px;
+    line-height: 30px;
+    font-size:25px;
+
+
+
+
+}
+.paraStyle{
+    line-height: 40px;
+    font-size:25px;
+}
+.timerStyle{
+    padding: 10px;
+    font-weight: bold;
+    border: 1px dashed black;
+    font-size:20px;
+  margin:10px;
+}
+.counterStyle{
+    color: blue;
+}
+
+
+.inputContainerStyle{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,139,139,1));
+     align-items: center;
+    width: 100vw;
+    height:100vh;
+}
+
+.inputContainerStyle div{
+
+    padding:20px 0px 20px 0px;
+
+}
+
+.inputContainerStyle p{
+    height: 2rem;
+}
+
+.resultContainerStyle{
+    border: 1px dashed gray;
+    border-radius: 35%;
+    background-color: lightskyblue;
+    padding: 50px;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+
+}
+
+.resultContainerStyle label{
+    padding: 10px;
+}
+.speedStyle {
+width: 100px;
+ font-size:bolder;
+    height: 102px;
+    padding: 20px;
+    font-size: 26px;
+
+
+}
+.style{
+    display:grid;
+    grid-template-columns:auto auto ;
+    align-items: center;
+    padding-left: 80px;
+}
+
+}
